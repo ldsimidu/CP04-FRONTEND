@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Home | EcoTrend</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/mediaQ/mediaqueri.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="icon" href="assets/images/icons/ecotrendIcon.png" type="image/png">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="custom-header">
+    <nav class="custom-navbar">
+      <div class="navbar-container">
+        <a href="#" class="navbar-logo">
+          <img src="assets/images/logo/EcoTrend__2_-removebg-preview.png" alt="Logo" class="navbar-img">
+        </a>
+        <ul class="navbar-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="assets/html/produtosDEF.html">Loja</a></li>
+          <li><a href="assets/html/contato.html">Contato</a></li>
+        </ul>
+        <!--<a href="#" class="shop-logo-link">
+          <img class="shop-logo" src="assets/images/icons/iconshop.png" alt="shop">
+        </a>-->
+        <!-- Menu Icon Button -->
+
+      </div>
+    </nav>
+    <!-- Side Menu -->
+    <div id="side-menu" class="side-menu">
+      <a href="#" class="close-btn" onclick="toggleMenu()">&times;</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="assets/html/produtosDEF.html">Loja</a></li>
+        <li><a href="assets/html/contato.html">Contato</a></li>
+      </ul>
+    </div>
+  </header>
+  
+
+  <main class="main-product">
+    <section class="main-section">
+      <img src="assets/images/wallpaper/wall1.jpg" class="background-image" alt="Background" />
+      <!-- Carousel DO BOOTSTRAP-->
+      <div class="d-flex justify-content-center">
+        <div id="carouselExampleIndicators" class="carousel slide custom-carousel" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/images/promo/ecotrendpromo3.png" class="d-block w-100" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/promo/ecotrendpromo4.png" class="d-block w-100" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/promo/ecotrendpromo5.png" class="d-block w-100" alt="Slide 3">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/promo/ecotrendpromo6.png" class="d-block w-100" alt="Slide 4">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/promo/ecotrendpromo7.png" class="d-block w-100" alt="Slide 5">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    
+  <div class="container-produtos">
+    <div class="container-produtos-title">
+      <h1>Veja alguns de nossos produtos!</h1>
+      <h3>Todos 100% naturais e sustentáveis ;) </h3>
+    </div>
+        <!-- depois da uma olhada nos produtos se você quer mudar algum, coloquei 
+            esses so pra ter algo por enquanto -->
+        <div class="row product-row">
+            <div class="col-6 col-md-3">
+                <div class="square">
+                    <img src="assets/images/produtos/camiseta_algodao_frente.jpg" alt="camiseta_algodao_frente" class="img-primaria">
+                    <img src="assets/images/produtos/camiseta_algodao_tras.jpg" alt="cammiseta_algodao_tras" class="img-secundaria">
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="square">
+                    <img src="assets/images/produtos/ecobag1.jpg" alt="ecobag1" class="ecobag-primaria">
+                    <img src="assets/images/produtos/ecobag2.png" alt="ecobag2" class="ecobag-secundaria">
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="square">
+                    <img src="assets/images/produtos/tenis_nike1.jpg" alt="tenis_nike1" class="tenis-primario">
+                    <img src="assets/images/produtos/tenis_nike2.jpg" alt="tenis_nike2" class="tenis-secundario">
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="square">
+                    <img src="assets/images/produtos/calca_primaria.jpg" alt="calca_primaria" class="calca_primaria">
+                    <img src="assets/images/produtos/calca_secundaria.jpg" alt="calca_secundaria" class="calca_secundaria">
+                </div>
+            </div>
+        </div>
+
+        <!-- Linha 2 -->
+
+        <div class="row product-row">
+            <div class="col-6 col-md-3">
+                <div class="square">
+                    <img src="assets/images/produtos/shampoosolido1.png" alt="shampoosolido1" class="shampoosolido1">
+                    <img src="assets/images/produtos/shampoosolido2.png" alt="shampoosolido2" class="shampoosolido2">
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="square">
+                    <img src="assets/images/produtos/saboneteveg1.jpg" alt="saboneteveg1" class="saboneteveg1">
+                    <img src="assets/images/produtos/saboneteveg2.jpg" alt="saboneteveg2" class="saboneteveg2">
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="square">
+                    <img src="assets/images/produtos/protetorsolar1.jpg" alt="protetorsolar1" class="protetorsolar1">
+                    <img src="assets/images/produtos/protetorsolar2.jpg" alt="protetorsolar2" class="protetorsolar2">
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="square">
+                    <img src="assets/images/produtos/balsamo1.jpg" alt="balsamo1" class="balsamo1">
+                    <img src="assets/images/produtos/balsamo2.jpg" alt="balsamo2" class="balsamo2">
+                </div>
+            </div>
+        </div>
+
+        <!--BOTAO VER MAIS -> DIRECIONA PARA A PARTE DA LOJA -->
+        
+          <div class="h1-ver-mais">
+            <h1>Gostou? Deseja Ver Mais? Clique Aqui Abaixo</h1>
+          </div>
+          <div class="text-center mt-4">
+            <a href="assets/html/produtosDEF.html" class="btn btn-verde btn-custom">Ver Mais</a>
+          </div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-about">
+        <h2>EcoTrend</h2>
+        <p>Sua loja de roupas e acessórios sustentável!</p>
+        <p>Faça suas compras com a mão na consciência e no bolso.</p>
+      </div>
+      
+      <div class="footer-links">
+        <h3>Páginas</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">###</a></li>
+          <li><a href="assets/html/produtos.html">Loja</a></li>
+          <li><a href="assets/html/contato.html">Contato</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-contact">
+        <h3>Contato</h3>
+        <ul>
+          <li>Acesse <a href="assets/html/contato.html">aqui</a> a aba de contato!</li>
+          <li>Telefone: (11) 2600-1234</li>
+          <li>Endereço: Avenida Lins de Vasconcelos, 1222<br>
+            São Paulo, SP</li>
+        </ul>
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <p>&copy; 2024 Sabor Express. Todos os direitos reservados.</p>
+      <ul class="social-icons">
+        <li><a href="#"><img src="icon-facebook.png" alt="Facebook"></a></li>
+        <li><a href="#"><img src="icon-instagram.png" alt="Instagram"></a></li>
+        <li><a href="#"><img src="icon-twitter.png" alt="Twitter"></a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+  <script src="assets/js/index.js"></script>
+</body>
+</html>
